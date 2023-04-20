@@ -1,0 +1,74 @@
+:host {
+    flex: 1;
+}
+
+.represent {
+    height: 100%;
+    position: relative;
+    border-radius: 7px;
+    overflow: hidden;
+    background: #f0eefb;
+    box-shadow:  9px 9px 29px #b6b5bf,
+                 -9px -9px 29px #ffffff;
+
+    &__marker {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #70adff;
+        height: 10px;
+    }
+
+    &__content {
+        max-width: 90%;
+        margin-inline: auto;
+    }
+
+    &__submit {
+        margin-top: 30px;
+        border: none;
+        background-color: #408cf4;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        height: 40px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    &__label {
+        margin-bottom: 5px;
+        margin-inline-start: 2px;
+    }
+
+    h3 {
+        color: #c3c3c3;
+        text-align: center;
+        padding-top: 30px;
+        font-weight: 400;
+
+    }
+
+    p {
+        color: #263e54;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        input {
+            outline: none;
+            box-shadow: none;
+            border: none;
+            border: 1px solid #e1dfdf;
+            height: 40px;
+            font-size: 18px;
+        }
+    }
+}

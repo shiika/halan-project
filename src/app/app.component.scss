@@ -1,0 +1,14 @@
+.container {
+    width: 560px;
+    height: 70vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        color: #263e54;
+        margin-top: 60px;
+        text-align: center;
+        font-weight: 500;
+    }
+}
